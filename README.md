@@ -58,7 +58,7 @@ The modeling process starts by reading the available data in various CSV files a
   - [subcategory.csv (cleaned sub-category dataset).](Resources/subcategory.csv)
   - [contacts.csv (cleaned contacts dataset).](Resources/contacts.csv)
 - DatabaseSchema.
-  - [crowdfunding_db_schema.sql (DatabaseSchema script)] (DatabaseSchema/crowdfunding_db_schema.sql)
+  - [crowdfunding_db_schema.sql (DatabaseSchema script)](DatabaseSchema/crowdfunding_db_schema.sql)
   - [crowdfunding_db_schema.png (image of the ERD)](DatabaseSchema/crowdfunding_db_schema.png)
 - SQLOutputs.
 Contains images of the Postgres query outputs
