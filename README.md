@@ -1,5 +1,7 @@
+<p align="center">
 # ETL mini project with python.
-# Extract, Transform and load crowdfunding data set.
+## Extract, Transform and load crowdfunding data set.
+</p>
 
 ## Background
 This project includes building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
@@ -7,8 +9,8 @@ After you transform the data, you'll create four CSV files and use the CSV file 
 Finally, you’ll upload the CSV file data into a Postgres database.
 
 ## Data sources
-- [Crowdfunding Dataset - Excel file] (Resources/crowdfunding.xlsx)
-- [Contact Dataset- Excel file] (Resources/contacts.xlsx)
+- [Crowdfunding Dataset - Excel file](Resources/crowdfunding.xlsx)
+- [Contact Dataset- Excel file](Resources/contacts.xlsx)
 
 ## ETL Process
 - Create a Category/SubCategory DataFrame.
@@ -50,17 +52,17 @@ The modeling process starts by reading the available data in various CSV files a
 ## Folders and files.
 - Resources folder. 
   - [crowdfunding.xlsx (Campaign data source).](Resources/crowdfunding.xlsx)
-  - [contacts.xlsx (Contact list).] (Resources/contacts.xlsx)
-  - [campaign.csv (cleaned campaign dataset).] (Resources/campaign.csv)
-  - [category.csv (cleaned category dataset).] (Resources/category.csv)
-  - [subcategory.csv (cleaned sub-category dataset).] (Resources/subcategory.csv)
-  - [contacts.csv (cleaned contacts dataset).] (Resources/contacts.csv)
+  - [contacts.xlsx (Contact list).](Resources/contacts.xlsx)
+  - [campaign.csv (cleaned campaign dataset).](Resources/campaign.csv)
+  - [category.csv (cleaned category dataset).](Resources/category.csv)
+  - [subcategory.csv (cleaned sub-category dataset).](Resources/subcategory.csv)
+  - [contacts.csv (cleaned contacts dataset).](Resources/contacts.csv)
 - DatabaseSchema.
   - [crowdfunding_db_schema.sql (DatabaseSchema script)] (DatabaseSchema/crowdfunding_db_schema.sql)
-  - [crowdfunding_db_schema.png (image of the ERD)] (DatabaseSchema/crowdfunding_db_schema.png)
+  - [crowdfunding_db_schema.png (image of the ERD)](DatabaseSchema/crowdfunding_db_schema.png)
 - SQLOutputs.
 Contains images of the Postgres query outputs
-  - [category.] (SQLOutputs/campaign.png)
-  - [subcategory.] (SQLOutputs/subcategory.png)
-  - [contacts.] (SQLOutputs/contacts.png)
-  - [campaign.] (SQLOutputs/campaign.png)
+  - [category.](SQLOutputs/campaign.png)
+  - [subcategory.](SQLOutputs/subcategory.png)
+  - [contacts.](SQLOutputs/contacts.png)
+  - [campaign.](SQLOutputs/campaign.png)
