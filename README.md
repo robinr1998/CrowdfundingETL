@@ -1,7 +1,7 @@
-<p align="center">
-# ETL mini project with python.
+
+<h1 align="center">ETL mini project with python</h1>
+
 ## Extract, Transform and load crowdfunding data set.
-</p>
 
 ## Background
 This project includes building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
