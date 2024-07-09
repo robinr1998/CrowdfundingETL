@@ -16,6 +16,10 @@ Finally, you’ll upload the CSV file data into a Postgres database.
 - [Crowdfunding Dataset - Excel file](Resources/crowdfunding.xlsx)
 - [Contact Dataset- Excel file](Resources/contacts.xlsx)
 
+## Tools and python libraries used
+- Pandas re.
+- Pandas numpy.
+
 ## ETL Process
 - Create a Category/SubCategory DataFrame.
   - Load the data from excel (Crowdfunding.xlsx).
@@ -23,7 +27,7 @@ Finally, you’ll upload the CSV file data into a Postgres database.
   - Create Column heeding by extracting the unique values using .unique method.
   - Create new data frames using "PdDataframe".
   - Save the cleaned data frame as CSV file.
-  
+    
 - Create Campaign DataFrame.
   - Rename the columns using rename method.
   - Change the data types of the columns   using "pd.to_datetime" and "astype".
@@ -39,7 +43,7 @@ Finally, you’ll upload the CSV file data into a Postgres database.
   - Create a data frame by using the data list.
   - Using pandas regular expressions (pattern and ".str.extract()") extract the ID,Name and Email from the dataset.
   - Save the cleaned data frame as CSV file.  
-
+ 
 ## Data Modeling
 The modeling process starts by reading the available data in various CSV files and identifying 
 - Relationship between those data
@@ -49,9 +53,17 @@ The modeling process starts by reading the available data in various CSV files a
 
 [Data modeling tool : quick database diagrams](https://www.quickdatabasediagrams.com). 
 
-## Tools and python libraries used
-- Pandas re.
-- Pandas numpy.
+## Instruction to create the Database and import data.
+
+Database Management tool- PostgreSQL
+1. Open the pgAdming.
+2. Open the database server.
+3. Create a new database named "crowdfunding_db".
+4. Open the "Query Tool" from the table section (right click on the table section).
+5. Open the "crowdfunding_db_schema.sql" sql from DatabaseSchema folder.
+6. Run the script to create the tables. 
+7. To import the data, right click on a table and select Import/Export Data.
+8. Order of importing data (1.category, 2.subcategory, 3.contacts , 4.campaign).
 
 ## Folders and files.
 - Resources folder. 
