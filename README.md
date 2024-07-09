@@ -53,7 +53,7 @@ The modeling process starts by reading the available data in various CSV files a
 
 [Data modeling tool : quick database diagrams](https://www.quickdatabasediagrams.com). 
 
-## Instruction to create the Database and import data.
+## Instructions to create the Database and import data.
 
 Database Management tool- PostgreSQL
 1. Open the pgAdming.
